@@ -1,0 +1,6 @@
+variable "database_password" {
+  description = "Password for the database"
+  type        = string
+  # You can set a default value if needed
+  default     = "Admin123"
+}
